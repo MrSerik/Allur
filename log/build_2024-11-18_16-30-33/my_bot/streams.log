@@ -1,0 +1,46 @@
+[0.269s] Invoking command in '/home/serik/allur_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/serik/allur_ws/build/my_bot -- -j4 -l4
+[3.184s] Invoked command in '/home/serik/allur_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/serik/allur_ws/build/my_bot -- -j4 -l4
+[3.255s] Invoking command in '/home/serik/allur_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/serik/allur_ws/build/my_bot
+[3.273s] -- Install configuration: ""
+[3.303s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config
+[3.303s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[3.303s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/empty.yaml
+[3.303s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[3.304s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[3.304s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[3.304s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[3.304s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[3.304s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[3.304s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/description
+[3.314s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.315s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[3.315s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[3.315s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[3.315s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.315s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[3.315s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch
+[3.331s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[3.331s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.331s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[3.331s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/localization_launch.py
+[3.332s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
+[3.332s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.332s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/worlds
+[3.332s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/worlds/empty.world
+[3.333s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/worlds/serik.world
+[3.333s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.333s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.333s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.333s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.334s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/path.sh
+[3.334s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/path.dsv
+[3.334s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.bash
+[3.334s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.sh
+[3.334s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.zsh
+[3.334s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.dsv
+[3.334s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/package.dsv
+[3.335s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.335s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.335s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.335s] -- Up-to-date: /home/serik/allur_ws/install/my_bot/share/my_bot/package.xml
+[3.337s] Invoked command in '/home/serik/allur_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/serik/allur_ws/build/my_bot

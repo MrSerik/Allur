@@ -1,0 +1,60 @@
+[0.023s] Invoking command in '/home/serik/allur_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/serik/allur_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/serik/allur_ws/install/my_bot
+[0.192s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.278s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.813s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.977s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.992s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.994s] -- Added test 'lint_cmake' to check CMake code style
+[0.996s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.004s] -- Added test 'xmllint' to check XML markup files
+[1.007s] -- Configuring done
+[1.011s] -- Generating done
+[1.012s] -- Build files have been written to: /home/serik/allur_ws/build/my_bot
+[1.017s] Invoked command in '/home/serik/allur_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/serik/allur_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/serik/allur_ws/install/my_bot
+[1.023s] Invoking command in '/home/serik/allur_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/serik/allur_ws/build/my_bot -- -j4 -l4
+[1.098s] Invoked command in '/home/serik/allur_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/serik/allur_ws/build/my_bot -- -j4 -l4
+[1.162s] Invoking command in '/home/serik/allur_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/serik/allur_ws/build/my_bot
+[1.178s] -- Install configuration: ""
+[1.178s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config
+[1.178s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[1.178s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.178s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[1.179s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.179s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.179s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.179s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[1.179s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.180s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.181s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch
+[1.181s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[1.181s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.181s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[1.181s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/localization_launch.py
+[1.181s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
+[1.182s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.182s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/worlds
+[1.182s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.182s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/worlds/serik.world
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.183s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.184s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.184s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.184s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.184s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/package.dsv
+[1.185s] -- Installing: /home/serik/allur_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.185s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.185s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.185s] -- Installing: /home/serik/allur_ws/install/my_bot/share/my_bot/package.xml
+[1.189s] Invoked command in '/home/serik/allur_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/serik/allur_ws/build/my_bot

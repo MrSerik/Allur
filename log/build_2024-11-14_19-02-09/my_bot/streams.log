@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/serik/allur_ws/build/my_bot': /usr/bin/cmake /home/serik/allur_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/serik/allur_ws/install/my_bot
+[1.556s] -- The C compiler identification is GNU 9.4.0
+[2.258s] -- The CXX compiler identification is GNU 9.4.0
+[2.285s] -- Check for working C compiler: /usr/bin/cc
+[2.424s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.426s] -- Detecting C compiler ABI info
+[2.568s] -- Detecting C compiler ABI info - done
+[2.591s] -- Detecting C compile features
+[2.592s] -- Detecting C compile features - done
+[2.596s] -- Check for working CXX compiler: /usr/bin/c++
+[2.729s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.730s] -- Detecting CXX compiler ABI info
+[2.867s] -- Detecting CXX compiler ABI info - done
+[2.890s] -- Detecting CXX compile features
+[2.891s] -- Detecting CXX compile features - done
+[2.947s] CMake Error at CMakeLists.txt:19 (find_package):
+[2.947s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.947s]   has asked CMake to find a package configuration file provided by
+[2.948s]   "ament_cmake", but CMake did not find one.
+[2.948s] 
+[2.948s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.948s]   any of the following names:
+[2.948s] 
+[2.948s]     ament_cmakeConfig.cmake
+[2.948s]     ament_cmake-config.cmake
+[2.949s] 
+[2.949s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.949s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.949s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.949s]   has been installed.
+[2.949s] 
+[2.949s] 
+[2.949s] -- Configuring incomplete, errors occurred!
+[2.950s] See also "/home/serik/allur_ws/build/my_bot/CMakeFiles/CMakeOutput.log".
+[2.954s] Invoked command in '/home/serik/allur_ws/build/my_bot' returned '1': /usr/bin/cmake /home/serik/allur_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/serik/allur_ws/install/my_bot
